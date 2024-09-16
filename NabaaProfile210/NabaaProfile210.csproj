@@ -7,8 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="css\app.css" />
+    <Content Include="css\bootstrap\bootstrap.min.css" />
+    <Content Include="css\bootstrap\bootstrap.min.css.map" />
+    <Content Include="favicon.png" />
+    <Content Include="icon-192.png" />
+    <Content Include="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.8" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
